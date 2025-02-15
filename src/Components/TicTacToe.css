@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+}
+
+.box {
+    
+    padding: 40px;
+    border: 2px solid red;
+    margin: 2px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    text-align: center; /* Center text within the box */
+    height:80px;
+    width:80px;
+}
+
+.reset {
+    margin-top: 20px; /* Space between the board and the button */
+    padding: 20px 20px; /* Add padding to the button */
+    background-color: red; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners for the button */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    align-content: center;
+}
+
+.reset:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+
+.header
+{
+    font-size: 77px;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+    
+}
+img
+{
+    height:70px;
+    width:70px;
+}
